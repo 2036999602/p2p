@@ -1,0 +1,137 @@
+html,body {
+    background: #eaeaea;
+}
+.counter_wrap {
+    width:1200px;
+    height:auto;
+    margin:0px auto;
+    margin-top: 30px;
+    background-color:#fff;
+}
+.counter_wrap .counter_box {
+    width:1000px;
+    margin:0px auto;
+    padding-top:20px;
+}
+.counter_wrap .counter_box .counter_tittle {
+    line-height: 50px;
+    display: block;
+    font-size: 18px;
+    color: #262626;
+    border-bottom: 1px solid #d8d8d8;
+}
+.counter_wrap .counter_box .input_wrap {
+    height: 240px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.counter_wrap .counter_box .input_wrap dl {
+    float: left;
+    padding-right: 150px;
+}
+.counter_wrap .counter_box .input_wrap dl dd {
+    line-height: 72px;
+}
+.counter_wrap .counter_box .input_wrap dl dd s{
+    text-decoration: none;
+    color: red;
+    padding-right: 5px;
+}
+.counter_wrap .counter_box .input_wrap dl dd label {
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+}
+.counter_wrap .counter_box .input_wrap dl dd input {
+    width:215px;
+    height: 35px;
+    border:1px solid #bfbfbf;
+    border-radius: 4px;
+    padding-left: 6px;
+}
+.counter_wrap .counter_box .input_wrap dl dd #input_data {
+    width:150px;
+}
+.counter_wrap .counter_box .input_wrap dl dd select {
+    padding-left: 6px;
+    width:215px;
+    height: 35px;
+    border:1px solid #bfbfbf;
+    border-radius:4px;
+}
+.counter_wrap .counter_box .input_wrap dl dd .deadline_select {
+    width:60px;
+}
+.counter_wrap .counter_box .input_wrap .counter_btn {
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    background: #ef7a46;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 14px;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+    margin-top:35px;
+}
+.counter_wrap .counter_box .input_wrap .counter_btn:hover {
+    text-align: center;
+    background: #1fb7fb;
+    color: #fff !important;
+}
+.counter_wrap .counter_box .describe_tittle {
+    font-size: 18px;
+    color: #262626;
+}
+.counter_wrap .counter_box .counter_describe dl {
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.counter_wrap .counter_box .counter_describe dl dd{
+    float: left;
+    padding-right: 160px;
+}
+.counter_wrap .counter_box .counter_describe .describe_text {
+    color: #262626;
+    line-height: 36px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.counter_wrap .counter_box .counter_describe .describe_text span {
+    color: #ef7a46;
+    font-size: 20px;
+    line-height: 36px;
+}
+.counter_wrap .counter_box .counter_form legend {
+    display: block;
+    font-size:20px;
+    color: #7a7a7a;
+    height: 36px;
+}
+.counter_wrap .counter_box .counter_form table thead tr {
+    background-color: #f6f6f6;
+}
+.counter_wrap .counter_box .counter_form table tr {
+    line-height: 30px;
+}
+.counter_wrap .counter_box .counter_form table tr td {
+    text-align: center;
+}
+.counter_wrap .counter_box .counter_info {
+    border-bottom: 1px solid #d8d8d8;
+    margin:50px 0px 100px 50px;
+    display: block;
+    padding-bottom: 120px;
+}
+.counter_wrap .counter_box .counter_info li {
+    line-height:36px;
+    color: #5b5b5b;
+    list-style:disc;
+}

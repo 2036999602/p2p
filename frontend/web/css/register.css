@@ -1,0 +1,438 @@
+
+@charset "UTF-8";
+/**
+ * @authors yangshu
+ * @date    2017年6月14日14:07:42;
+**/
+/* S==登陆*/
+body {
+    background-color: #eaeaea;
+}
+.content_wrap {
+    width: 100%;
+    height: 503px;
+    margin-top:40px;
+    background: url(../imgs/load.png) no-repeat;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.content_wrap .load_wrap {
+    width: 350px;
+    height: 388px;
+    position: absolute;
+    top:15%;
+    left: 70%;
+    background-color: #fff;
+    float: right;
+}
+.content_wrap .load_box {
+    margin-left: 25px;
+}
+.content_wrap .load_box .load_top {
+    width:100%;
+    line-height:80px;
+    height: 80px;
+    font-size: 18px;
+    display: block;
+    color: #333333;
+}
+.content_wrap .load_box .loadForm .load_bottom .register_info {
+    font-size: 12px;
+    float: right;
+    color: #555555;
+    line-height: 24px;
+    margin-bottom: 12px;
+
+}
+.content_wrap .load_box .loadForm .load_bottom .register_info a {
+    color: #ffa902;
+}
+.content_wrap .load_box .loadForm table input {
+    width: 298px;
+    height: 40px;
+    padding-bottom: 0px;
+    border:1px solid #ccc;
+    display: block;
+    margin:0 auto;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-indent: 42px;
+}
+.content_wrap .load_box .loadForm table input:focus {
+    border: 1px solid #95C8F1;
+    box-shadow: 0 0 2px #95C8F1;
+}
+.content_wrap .load_box #load_account {
+    background: url(../imgs/register_account.gif) no-repeat;
+}
+.content_wrap .load_box #load_key {
+    background: url(../imgs/register_key.gif) no-repeat;
+}
+.content_wrap .load_box .loadForm .Validform_wrong {
+    padding-left: 36px !important;
+}
+.content_wrap .load_box .loadForm .load_bottom {
+    width:300px;
+    height: 60px;
+    line-height: 60px;
+}
+.content_wrap .load_box .loadForm .load_bottom a {
+    float: right;
+    color: #797979;
+}
+.content_wrap .load_box .loadForm .load_bottom a:hover {
+    color:#ffa902;
+}
+
+.content_wrap .load_box .loadForm .load_bottom input {
+
+}
+.content_wrap .load_box .loadForm .load_bottom label {
+    color:#797979;
+}
+.content_wrap .load_box .loadForm .load_bottom button {
+    font-size: 18px;
+    color: #fff;
+    margin:0 auto;
+    background-color: #ffa902;
+    width:298px;
+    height: 44px;
+    border:1px solid #ffdd9a;
+    border-bottom: 1px solid #d68d00;
+    text-align: center;
+    display: block;
+    margin-top: 24px;
+    line-height: 41px;
+    border-radius: 5px;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.content_wrap .load_box .loadForm .load_bottom button:hover {
+    background-color: #1fb7fb;
+    border-bottom: 1px solid #1fb7fb;
+}
+.load_captips {
+    top:486px !important;
+    margin-left:232px !important;
+    font-size: 10px;
+    color: #ffa902;
+}
+/*E==登陆*/
+/*S==注册*/
+.registor_content {
+    width: 440px;
+    margin:60px auto;
+    background-color: #fff;
+    padding:50px;
+}
+.registor_content .register_top {
+    width: 100%;
+    height: 24px;
+    margin-bottom: 20px;
+    background: url(../imgs/regist_log.png) no-repeat;
+}
+.registor_content .register_top_r {
+    width: 288px;
+    height: 24px;
+    text-align: bottom;
+    float: right;
+}
+.registor_content .register_top span {
+    font-size: 24px;
+    color: #ffa902;
+    padding-left: 25px;
+    display: inline-block;
+    line-height: 24px;
+
+}
+.registor_content .register_top .old_count {
+    font-size: 14px;
+    color: #797979;
+    line-height: 24px;
+    display: inline;
+    padding-left:190px;
+}
+.registor_content .register_top a {
+    font-size: 14px;
+    color: #ffa902;
+    text-decoration: none;
+    float: right;
+    line-height: 24px;
+    display: inline;
+}
+.registor_content .register_box {
+    width: 440px;
+    height: 325px;
+    margin:0 auto;
+}
+.registor_content .register_box input {
+    width: 434px;
+    height: 40px;
+    border:1px solid #d1d1d1;
+    margin-top: 6px;
+    line-height: 40px;
+    text-indent: 20px;
+}
+.registor_content .registerForm input:focus {
+    border: 1px solid #95C8F1;
+    box-shadow: 0 0 2px #95C8F1;
+}
+.registor_content .registerForm .Validform_wrong {
+    padding-left: 12px !important;
+}
+.registor_content .registerForm .mes_box {
+    margin-bottom: 20px;
+}
+.registor_content .registerForm #message_receice {
+    width: 296px;
+    display: inline-block;
+}
+.registor_content .registerForm .register_box #message_receive {
+    width: 126px;
+    height: 43px;
+    margin-left: 12px;
+    color: #fff;
+    background-color: #ffa902;
+    font-size: 14px;
+    line-height: 43px;
+    display: inline-block;
+    float: right;
+    padding-right: 16px;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.registor_content .registerForm .register_box #message_receive:hover {
+    background-color: #1fb7fb;
+    border-bottom: 1px solid #1fb7fb;
+}
+.registor_content .registerForm .recommend {
+    width: 438px;
+    height: 14px;
+    font-size: 14px;
+    color: #797979;
+    display: inline-block;
+    margin-top:22px;
+}
+.registor_content .registerForm .recommend p{
+    display: inline-block;
+    cursor: pointer;
+}
+.registor_content .registerForm .recommend p i {
+    background: url(../imgs/triangle_arrow.png) no-repeat;
+    display: inline-block;
+    width:14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.registor_content .registerForm .recommend s {
+    color: #ffa902;
+    padding-left: 15px;
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+}
+.registor_content .registerForm #exclusive_re {
+    display: none;
+}
+.registor_content .registerForm #exclusive_re input{
+    width: 434px;
+    height: 40px;
+    border:1px solid #d1d1d1;
+    margin-top: 20px;
+    line-height: 40px;
+    text-indent: 20px;
+}
+.registor_content .registerForm .agree_btn {
+    font-size: 18px;
+    color: #fff;
+    line-height: 43px;
+    background-color: #ffa902;
+    width: 438px;
+    height: 43px;
+    margin:20px auto;
+    display: inline-block;
+    text-align: center;
+    border:none;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.registor_content .registerForm .agree_btn:hover {
+    background-color: #1fb7fb;
+    border-bottom: 1px solid #1fb7fb;
+}
+.registor_content .registerForm .agree_deal {
+    width: 205px;
+    margin:0 auto;
+    font-size: 14px;
+    color: #797979;
+}
+.registor_content .registerForm .agree_deal span {
+    display: inline-block;
+}
+.registor_content .registerForm .agree_deal a {
+    color: #ffa902;
+    float: right;
+    text-decoration: none;
+}
+.registor_content .registerForm .check_pic_box {
+    width: 434px;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+}
+.registor_content .registerForm .check_pic_box .checkpic_input {
+    width: 160px;
+    height: 40px;
+    display: inline-block;
+}
+.registor_content .registerForm .check_pic {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin-left: 16px;
+    display: inline-block;
+}
+.registor_content .registerForm .check_img {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+}
+.registor_content .registerForm .check_pic_box .check_change {
+    background-color:#ffa902;
+    color: #fff;
+    display: inline-block;
+    line-height: 40px;
+    float: right;
+    border:none;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.registor_content .registerForm .check_pic_box .check_change:hover {
+    background-color: #1fb7fb;
+    border-bottom: 1px solid #1fb7fb;
+}
+.register_captips {
+    top:558px !important;
+    margin-left:360px !important;
+    font-size: 10px;
+    color: #ffa902;
+}
+.register_captips2 {
+    top:626px !important;
+    margin-left:360px !important;
+    font-size: 10px;
+    color: #ffa902;
+}
+/*E==注册*/
+/*S==忘记密码*/
+.getBackCode_box {
+    width: 438px;
+    height: 366px;
+    margin:120px auto;
+    background-color: #fff;
+    padding: 50px;
+    padding-bottom: 120px;
+}
+.getBackCode_box .Validform_wrong {
+    padding-left: 0px !important;
+}
+.getBackCode_box .getBackCode_top {
+    width: 100%;
+    height: 25px;
+    background: url(../imgs/getcode.png) no-repeat;
+    display: block;
+    margin-bottom: 24px;
+}
+.getBackCode_box .getBackCode_top p {
+    font-size: 24px;
+    color: #ffa902;
+    text-indent: 28px;
+}
+.getBackCode_box .input_box {
+    width: 440px;
+    margin:0 auto;
+}
+.getBackCode_box .input_box input {
+    width: 434px;
+    height: 40px;
+    border:1px solid #d1d1d1;
+    margin-top: 12px;
+    text-indent: 12px;
+}
+.getBackCode_box .input_box .message_input {
+    width:296px;
+}
+.getBackCode_box .input_box .message_btn {
+    width: 126px;
+    height: 43px;
+    margin-left: 12px;
+    color: #fff;
+    background-color: #ffa902;
+    font-size: 14px;
+    line-height: 43px;
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    padding-right:16px;
+    margin-bottom: 20px;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.getBackCode_box .input_box .message_btn:hover {
+    background-color: #1fb7fb;
+    border-bottom: 1px solid #1fb7fb;
+}
+.getBackCode_box .upload_btn {
+    font-size: 18px;
+    color: #fff;
+    line-height: 43px;
+    background-color: #ffa902;
+    width: 438px;
+    height: 43px;
+    margin:20px auto;
+    display: inline-block;
+    text-align: center;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.getBackCode_box .upload_btn:hover{
+    background-color: #1fb7fb;
+    border-bottom: 1px solid #1fb7fb;
+}
+.getCode_captips {
+    top:572px !important;
+    margin-left:360px !important;
+    font-size: 10px;
+    color: #ffa902;
+}
+.getCode_captips2 {
+    top:646px !important;
+    margin-left:360px !important;
+    font-size: 10px;
+    color: #ffa902;
+}
+/*E==忘记密码*/

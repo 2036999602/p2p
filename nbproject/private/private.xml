@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>common/logic/abstractLogic.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>5</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/www/web/zsp2p.com/backend/logic/LoanLogic.php</file>
+            <file>file:/E:/www/web/zsp2p.com/common/models/User.php</file>
+            <file>file:/E:/www/web/zsp2p.com/common/logic/BaseLogic.php</file>
+            <file>file:/E:/www/web/zsp2p.com/common/models/LoginForm.php</file>
+            <file>file:/E:/www/web/zsp2p.com/common/models/AptitudesLoanModel.php</file>
+            <file>file:/E:/www/web/zsp2p.com/backend/web/js/common.js</file>
+            <file>file:/E:/www/web/zsp2p.com/common/config/extend_params.php</file>
+            <file>file:/E:/www/web/zsp2p.com/backend/config/main.php</file>
+            <file>file:/E:/www/web/zsp2p.com/backend/modules/loan/views/loan_manager/_add_more_aptitudes.php</file>
+            <file>file:/E:/www/web/zsp2p.com/backend/modules/loan/controllers/LoanManagerController.php</file>
+            <file>file:/E:/www/web/zsp2p.com/backend/models/LoginForm.php</file>
+            <file>file:/E:/www/web/zsp2p.com/backend/config/main-local.php</file>
+            <file>file:/E:/www/web/zsp2p.com/backend/controllers/SiteController.php</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,2 @@
+INSERT INTO `z_member` (`id`, `user_name`, `password_hash`, `mobile`, `email`, `is_disable`, `auth_key`, `created_at`) VALUES (1, 'usera', '$2y$13$Al/nwwneT.Wnl8zNWj5c3uZv5mfheqH6FLiHQbx7xlNrWryIXDR1.', '15177884578', 'user@yahoo.com', 0, NULL, 1385542587);
+INSERT INTO `z_member` (`id`, `user_name`, `password_hash`, `mobile`, `email`, `is_disable`, `auth_key`, `created_at`) VALUES (2, 'userb', '$2y$13$Al/nwwneT.Wnl8zNWj5c3uZv5mfheqH6FLiHQbx7xlNrWryIXDR1.', '15855425478', 'userb@yahoo.com', 0, NULL, 1385599855);

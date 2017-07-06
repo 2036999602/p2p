@@ -1,0 +1,2 @@
+INSERT INTO `z_admin` (`id`, `user_name`, `password_hash`, `level`, `auth_key`, `created_at`, `updated_at`) VALUES (1, 'SuperAdmins', '$2y$13$Al/nwwneT.Wnl8zNWj5c3uZv5mfheqH6FLiHQbx7xlNrWryIXDR1.', 10, '', 0, 0);
+INSERT INTO `z_admin` (`id`, `user_name`, `password_hash`, `level`, `auth_key`, `created_at`, `updated_at`) VALUES (2, 'admin', '$2y$13$Al/nwwneT.Wnl8zNWj5c3uZv5mfheqH6FLiHQbx7xlNrWryIXDR1.', 9, '', 0, 0);
